@@ -1,65 +1,69 @@
-{% extends "layout.html" %}
-
-{% block body %}
-<div class="row">
-    <h3>Students</h3>
-</div>
-<div class="row">
-    <div class="col-md-4">
-        {% with messages = get_flashed_messages(with_categories=True) %}
-        {% if messages %}
-        {% for category, message in messages %}
-        <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
-            {{ message }}
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Student Management</h1>
+        <div class="mb-3">
+            <a href="{{ url_for('add_student') }}" class="btn btn-primary">Add Student</a>
+            <a href="{{ url_for('departments') }}" class="btn btn-secondary">Manage Departments</a>
         </div>
-        {% endfor %}
-        {% endif %}
-        {% endwith %}
-        <div class="card card-body">
-            <form action="{{ url_for('add_student') }}" method="post">
-                <div class="form-group my-3">
-                    <label for="fname">First Name</label>
-                    <input type="text" class="form-control" id="fname" name="fname" placeholder="e.g., John" required>
-                </div>
-                <div class="form-group my-3">
-                    <label for="lname">Last Name</label>
-                    <input type="text" class="form-control" id="lname" name="lname" placeholder="e.g., Doe" required>
-                </div>
-                <div class="form-group my-3">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="e.g., JohnDoe@abc.com" required>
-                </div>
-                <button type="submit" class="btn btn-primary my-2 d-block w-100">Save</button>
+
+        <!-- New Button to Switch to Department CRUD -->
+        <div class="mb-3">
+            <a href="{{ url_for('departments') }}" class="btn btn-info">Switch to Department Management</a>
+        </div>
+
+        <!-- Sorting Options -->
+        <div class="mb-3">
+            <form method="GET" action="{{ url_for('index') }}">
+                <label for="sort" class="mr-2">Sort by:</label>
+                <select name="sort" id="sort" class="custom-select w-auto">
+                    <option value="fname" {% if sort_by == 'fname' %}selected{% endif %}>First Name</option>
+                    <option value="lname" {% if sort_by == 'lname' %}selected{% endif %}>Last Name</option>
+                    <option value="department_id" {% if sort_by == 'department_id' %}selected{% endif %}>Department</option>
+                </select>
+                <button type="submit" class="btn btn-info ml-2">Sort</button>
             </form>
         </div>
-    </div>
-    <div class="col-md-8">
-        <table class="table table-striped table-bordered" style="width: 100%;">
+
+        <!-- Student List -->
+        <table class="table table-bordered">
             <thead>
                 <tr>
-                    <th><a href="{{ url_for('index', sort='id') }}">ID</a></th>
-                    <th><a href="{{ url_for('index', sort='fname') }}">First Name</a></th>
-                    <th><a href="{{ url_for('index', sort='lname') }}">Last Name</a></th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
                     <th>Email</th>
-                    <th>Action</th>
+                    <th>Department</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
-                {% for row in list_users %}
+                {% for student in list_users %}
                 <tr>
-                    <td>{{ row.id }}</td>
-                    <td>{{ row.fname }}</td>
-                    <td>{{ row.lname }}</td>
-                    <td>{{ row.email }}</td>
+                    <td>{{ student.fname }}</td>
+                    <td>{{ student.lname }}</td>
+                    <td>{{ student.email }}</td>
                     <td>
-                        <a href="{{ url_for('edit_student', student_id=row.id) }}" class="btn btn-secondary btn-sm">Edit</a>
-                        <a href="{{ url_for('delete_student', student_id=row.id) }}" class="btn btn-danger btn-sm">Delete</a>
+                        {% if student.department_id %}
+                            {{ student.department.department_name }}
+                        {% else %}
+                            No Department Assigned
+                        {% endif %}
+                    </td>
+                    <td>
+                        <a href="{{ url_for('edit_student', student_id=student.id) }}" class="btn btn-warning btn-sm">Edit</a>
+                        <a href="{{ url_for('delete_student', student_id=student.id) }}" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this student?')">Delete</a>
                     </td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
-</div>
-{% endblock %}
+</body>
+</html>
