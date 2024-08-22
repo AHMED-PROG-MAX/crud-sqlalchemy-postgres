@@ -37,10 +37,8 @@ def index():
         if sort_by not in ['id', 'fname', 'lname']:
             sort_by = 'fname'
 
-        # Use SQLAlchemy's text() function for raw SQL query
-        query = text(f"SELECT * FROM student ORDER BY {sort_by}")
-        result = db.session.execute(query)
-        list_users = result.fetchall()
+        # Use ORM to query the database and sort the results
+        list_users = Student.query.order_by(getattr(Student, sort_by)).all()
 
         return render_template('index.html', list_users=list_users, sort_by=sort_by)
     except Exception as e:
