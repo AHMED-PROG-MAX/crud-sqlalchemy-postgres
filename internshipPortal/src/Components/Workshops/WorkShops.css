@@ -1,0 +1,18 @@
+.slick-prev, .slick-next {
+    z-index: 10; /* Make sure they are above other content */
+    opacity: 1; /* Ensure they are fully visible */
+}
+
+.slick-prev {
+    left: 10px; /* Adjust to your preference */
+}
+
+.slick-next {
+    right: 10px; /* Adjust to your preference */
+}
+
+/* Ensure the section containing the slider has a higher z-index if needed */
+section.relative {
+    position: relative;
+    z-index: 1;
+}

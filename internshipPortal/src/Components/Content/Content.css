@@ -1,0 +1,79 @@
+.content h1{
+color:  #011f6b;
+}
+.content h1 p span{
+    color:  #019da5;
+    }
+
+    .icons{
+        color:#00fff5;
+        background-color: #393E46;
+    }
+    .cards{
+        border: 2px solid #008ca5;
+        text-align: left;
+        transition: all 0.3s ease-in-out;
+    }
+    .cards:focus{
+       transform: scale(0.85);
+       border: 4px solid rgb(1, 209, 209);
+    }
+    .cards  h5{
+        color: #011f6b;
+    }
+
+    
+    @media (max-width:700px) {
+      .main{
+        background-color: rgba(0, 0, 0, 0.438);
+      }
+      .main >div{
+        margin: auto 18px;
+      }
+      .NCAI{
+          font-size: 1rem;
+        
+  
+      }
+      .NCAI p{
+        color: #00fff5;
+          font-weight: 600;
+          font-size: 1.2rem;
+      
+      }
+      .SML{
+        font-size: 1rem;
+        margin-top:4px ;
+      }
+    }
+    .earthImg{
+      width: 50%;
+      bottom: 0;
+    }
+    @media (max-width:750px) {
+        .main{
+          background-color: rgba(0, 0, 0, 0.438);
+        }
+        .main >div{
+          margin: auto 18px;
+        }
+        .NCAI{
+            font-size: 1rem;
+          
+    
+        }
+        .NCAI p{
+          color: #00fff5;
+            font-weight: 600;
+            font-size: 1.2rem;
+        
+        }
+        .SML{
+          font-size: 1rem;
+          margin-top:4px ;
+        }
+      }
+      .earthImg{
+        width: 50%;
+        bottom: 0;
+      }

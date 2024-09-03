@@ -1,0 +1,32 @@
+
+[
+    {
+      "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/webinar4.jpg",
+      "title": "IOT Webinar",
+      "description": "The Smart City lab, NCAI brings an online webinar on “IOT” to know how IoT solutions can ease our life.",
+      "readmore": "Learn how IoT can help us in various domains personally and professionally. Honorable Speaker is Dr. Muhammad Khurram.",
+      "date": "11-April-2022"
+    },
+    {
+      "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/webinar3-1.jpg",
+      "title": "Booming Trends in AI Webinar",
+      "description": "The Smart City lab, NCAI brings an online webinar on “Booming trends in AI” for those who are interested in gaining technical expertise and building",
+      "readmore": " their professional career in AI domain. Our aim is to groom young professionals and make them qualified individuals as a part of Competence Development Program.",
+      "date": "20-November-2021"
+    },
+    {
+      "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/webinar2.jpg",
+      "title": "Scientific Manuscripts for International Journals Webinar",
+      "description": "The perspective on Artificial intelligence research and modern paper writings; Smart City Lab, NCAI, came up with a webinar, 'Scientific Manuscripts for International Journals.' Presenting you the  ",
+      "readmore": "Speaker 'Dr Huma Zia' PhD. Computer Science, University of Southampton, UK Assistant Professor, College of Engineering, AbuDhabi University, UAE.",
+      "date": "20-August-2021"
+    },
+    {
+      "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/webinar.jpg",
+      "title": "Blockchain & Cryptocurrency Webinar",
+      "description": "Cryptocurrency is definitely a hot topic of 2021. As most of our lives exist on the internet now. From baking information to our addresses, to our shopping habits, we entrust the internet with a lot of information.",
+      "readmore": " And cryptocurrency is yet another thing that relies on the internet. Smart City Lab, NCAI, NEDUET is here with a webinar that will explain all important aspects you need to know about blockchain and cryptocurrencies. Sir Fahad Shahab will be joining us as a guest speaker.",
+      "date": "28-May-2021"
+    }
+  ]
+  

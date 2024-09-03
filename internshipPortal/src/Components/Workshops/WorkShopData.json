@@ -1,0 +1,86 @@
+[
+      {
+        "title": "AI Workshop for Home Schooling Students",
+        "date": "7th March 2022",
+        "description": "Smart city lab gets the opportunity to explore the avenues of stream learning through imparting the knowledge of artificial intelligence among the home schooling students.",
+        "presenter": "Regional Business Development Manager Tahir Mahmood",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/homeschooling.jpg"
+      },
+      {
+        "title": "3D Printing Workshop",
+        "date": "15th January 2022",
+        "description": "Smart City Lab - NCAI, NED UET is offering a golden opportunity to those who are keenly interested in 3D printing and Rapid Prototyping where Introduction to Solidworks, CAD and 3D modelling will be discussed.",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/8.jpg"
+      },
+      {
+        "title": "Autonomous Vehicle Workshop",
+        "date": "28th - 31st December 2021",
+        "description": "Smart City Lab - NCAI, NED UET is offering a golden opportunity to those students who are keenly interested in Autonomous vehicle and Robotics. We are offering 4 days’ workshop on Autonomous Vehicle in AI Festival 3.0, where we will be working on CARLA simulator, ROS (Robot Operating System) and other state of the art computer vision and embedded algorithms guidelines to implement AI & Computer Vision techniques in self driving cars.",
+        "presenter": "Regional Business Development Manager Tahir Mahmood",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/6.jpg"
+      },
+      {
+        "title": "Motivational Session",
+        "date": "22nd December 2021",
+        "description": "Motivation is the fuel, necessary to keep the human engine running. ~Zig Ziglar Dr. Muhammad Khurram conducted a motivational session with the Team of Smart City Lab - NCAI, NED UET to guide them, inspire them and encourage them to achieve personal and professional goals efficiently.",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/session2.jpg"
+      },
+      {
+        "title": "Instrumentation and Control Workshop",
+        "date": "10th December 2021",
+        "description": "Smart City Lab - NCAI, NED UET is offering 1 day certified workshop on 'Instrumentation & Control', designed for engineering students and young professionals who are interested in exploring the field of Instrumentation & Controls (I&C) essential in Power Sector, Oil & Gas and Process Industries.",
+        "presenter": "Regional Business Development Manager Tahir Mahmood",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/2.jpg"
+      },
+      {
+        "title": "Data Annotation Workshop",
+        "date": "9th December 2021",
+        "description": "Smart City Lab - NCAI, NED UET organized a successful workshop under the Competence Development Program. The main objective of our team was to familiarize students with the basic and most important step of Data labelling i.e., Data Annotations.",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/17.jpg"
+      },
+      {
+        "title": "Instrumentation and Control Workshop",
+        "date": "3rd December 2021",
+        "description": "Smart City Lab - NCAI, NED UET is offering 1 day certified workshop on 'Instrumentation & Control', designed for engineering students and young professionals who are interested in exploring the field of Instrumentation & Controls (I&C) essential in Power Sector, Oil & Gas and Process Industries.",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/16.jpg"
+      },
+      {
+        "title": "Autonomous Vehicle Session",
+        "date": "2nd December 2021",
+        "description": "Smart City Lab - NCAI, NED UET will be presenting their vision in Smart City Innovation Bootcamp session in the event Envision organized by IEEE Neduet Student Branch NED university, on a self-driving car project which is an ongoing project in smart city lab. The purpose of this session is to promote and encourage students towards research.",
+        "presenter": "Regional Business Development Manager Tahir Mahmood",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/session.jpg"
+      },
+      {
+        "title": "Robotics Workshop",
+        "date": "6th November 2021",
+        "description": "Director of Smart City Lab NCAI, NED, Prof. Dr. Muhammad Khurram aims to promote STEM learning. In this regard, the Robotics workshop is designed especially for students from grades 8th–12th and O/A-Levels.",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/15.jpg"
+      },
+      {
+        "title": "Smart Agriculture Workshop",
+        "date": "20th October 2021",
+        "description": "Smart City Lab NCAI NEDUET organized Smart Agriculture Workshop 2021 in a village Darsano Chhano District Malir, Karachi.",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/14.jpg"
+      },
+      {
+        "title": "Robot Operating System Workshop",
+        "date": "29th May 2021",
+        "description": "We are pleased to welcome you to the Introduction to ROS - Robot Operating System workshop by Smart City Lab – NCAI, NEDUET. This 8-week workshop is formulated to kick start from absolute basics and build up the knowledge base all the way to intermediate-advanced ROS utility.",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/12.png"
+      },
+      {
+        "title": "AI Workshop",
+        "date": "13th March 2021",
+        "description": "Workshop on Artificial Intelligence with Python by Smart City Lab NCAI, in collaboration with CERD.",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/1.jpg"
+      },
+      {
+        "title": "IoT for Smart Cities",
+        "date": "2nd, 9th, 16th, 23rd, 30th January 2021",
+        "description": "Smart City lab brings IoT for Smart Cities, a one-month certificate online hands-on workshop held every Saturday.",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/workshops/11.jpg"
+      }
+    ]
+
+  

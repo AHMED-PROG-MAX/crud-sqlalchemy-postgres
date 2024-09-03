@@ -1,0 +1,33 @@
+ [
+    {
+      "title": "Intelligent Cyber Systems",
+      "description": "Intelligent systems are complex and use a wide range of technologies.",
+      "icon": "ri-brain-line"
+    },
+    {
+      "title": "Information Management Systems",
+      "description": "IMS are tools used to support processes, operations, intelligence, and IT.",
+      "icon": "ri-database-2-line"
+    },
+    {
+      "title": "Mobile Augmented Reality",
+      "description": "Mobile augmented reality is one of the most explosive growth areas for AR applications currently.",
+      "icon": "ri-smartphone-line"
+    },
+    {
+      "title": "Internet Of Things (IOT)",
+      "description": "A system of interrelated computing devices, mechanical and digital machines.",
+      "icon": "ri-router-line"
+    },
+    {
+      "title": "Simulated Reality",
+      "description": "Simulated reality is the hypothesis that reality could be simulated to a degree.",
+      "icon": "ri-vr-line"
+    },
+    {
+      "title": "Smart Energy",
+      "description": "A smart energy system is a cost-effective, sustainable, and secure energy system in which renewable energy is used.",
+      "icon": "ri-flashlight-line"
+    }
+  ]
+

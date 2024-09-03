@@ -1,0 +1,39 @@
+[
+    {
+        "date" : "11th June 2022",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/courses/mendix.jpg",
+      "title": "Certified Mendix Course",
+      "description": "Smart City Lab, NCAI presents a 4-month course (4 hours/week) on Mendix. If you are still not sure about whether you should attend this course on Mendix, Smart City Lab - NCAI, NED UET in collaboration with Systems Limited and",
+      "readmore": "IEEE Neduet Student Branch bring you the first 4-hour session on Saturday (11th June) absolutely free. Tune in by clicking the Google meet link in the description and experience it for yourself!"
+    },
+    {
+        "date" : "19th December 2021",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/courses/4.jpg",
+      "title": "Android/iOS/Web Application Development using Flutter",
+      "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, Mac, Windows, Google Fuchsia, and",
+      "readmore": " the web from a single codebase. The course is designed for engineering students and young professionals to teach them how to use Flutter for quickly developing high-quality, interactive mobile applications for iOS and Android devices"
+
+    },
+    {
+        "date" : "22nd May 2021",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/courses/fpga1.jpg",
+      "title": "Embedded System Design with Xilinx VIVADO and FPGA",
+      "description": "Smart City Lab, NCAI presents a 12-week course (3 hours/week) on Embedded System Design with Xilinx VIVADO and FPGA.",
+      "readmore": ""
+    },
+    {
+        "date" : "13th February 2021",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/courses/2.png",
+      "title": "Artificial Intelligence with Python Course (Collaboration with CERD)",
+      "description": "Smart City Lab, NCAI, NED is launching an Artificial Intelligence with Python Course at NED University! ",
+      "readmore": "Top students from this course will get internship opportunities at Smart City Lab, NCAI."
+    },
+    {
+        "date" : "4th June 2016",
+        "imgUrl": "https://smartcitylab.neduet.edu.pk/images/courses/1.jpg",
+      "title": "FPGA Course & Hands-on Training",
+      "description": "Smart City Lab NED brings FPGA Certified Course and hands-on training for Nedians.",
+      "readmore": ""
+    }
+  ]
+  
