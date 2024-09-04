@@ -70,6 +70,7 @@ const Navbar = () => {
               <li><NavLink to="/" className="rounded-b-lg">Achievement 3</NavLink></li>
             </ul>
           </div>
+          
           <div className="dropdown md:border-none border py-1">
             <NavLink to="/contact" className="nav-link hover:cursor-pointer text-[1rem] ml-2 md:ml-0" >Contact Us</NavLink>
           </div>
