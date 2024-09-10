@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Custom Scrollbar for WebKit Browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #2d2d2d; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #facc15; /* Scrollbar color */
+  border-radius: 10px; /* Rounded corners for the scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #eab308; /* Scrollbar color on hover */
+}
